@@ -154,3 +154,16 @@ footer img:hover {
     margin: 0 auto;
     /* Centra las cartas */
 }
+
+/* Efecto de animación para las cartas */
+.small-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el ratón */
+.small-card:hover {
+    transform: scale(1.05);
+    /* Aumenta el tamaño de la carta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Sombra de la carta */
+}
