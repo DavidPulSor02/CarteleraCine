@@ -147,3 +147,10 @@ footer img {
 footer img:hover {
     transform: scale(1.1);
 }
+
+.small-card {
+    width: 80%;
+    /* Ajusta el ancho de las cartas */
+    margin: 0 auto;
+    /* Centra las cartas */
+}
